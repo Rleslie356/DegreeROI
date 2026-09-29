@@ -1,0 +1,19 @@
+column,dtype,description
+grad_id,string,Unique graduate identifier.
+major,string,Specific degree major (19 majors).
+major_category,string,"STEM, health, business, social_science, education, humanities, arts."
+institution_tier,string,"ivy_elite, top_public, mid_tier, regional, for_profit."
+institution_selectivity_pctile,int,Admissions selectivity percentile of the institution.
+gpa,float,Grade point average (0-4).
+had_internship,int,1 if completed at least one internship.
+completed_on_time,int,1 if graduated on schedule (no extra years).
+region,string,"US region: northeast, south, midwest, west."
+net_cost_usd,int,"Total net cost of the degree after aid, USD."
+debt_usd,int,"Student debt taken on, USD (0 if none)."
+hs_baseline_10yr_usd,int,"Counterfactual 10-year earnings as a high-school graduate, USD."
+added_earnings_10yr_usd,int,"10-year earnings above the high-school baseline, USD (the degree's earnings premium)."
+earnings_10yr_usd,int,"Total 10-year earnings, USD."
+net_roi_usd,int,"TARGET. Net ROI = added_earnings_10yr - net_cost, USD."
+roi_pct,float,TARGET. Net ROI as a percent of net cost.
+positive_roi,int,TARGET (binary). 1 if net_roi_usd > 0.
+high_roi,int,TARGET (binary). 1 if net_roi_usd is in the top quartile.
