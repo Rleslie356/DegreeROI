@@ -1,0 +1,10 @@
+# Web Framework & API 
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0 
+pydantic>=2.6.0 
+
+# Frontend Dashboard 
+streamlit>=1.32.0 
+
+# Database & Data Processing psycopg2-binary>=2.9.9 sqlalchemy>=2.0.28 pandas>=2.2.0 
+# Configuration & Utilities python-dotenv>=1.0.1 
